@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* section */
+
+.promo {
+    padding-top: 177px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+       /* background: linear-gradient(360deg, 
+    rgba(237, 215, 137, 0.9) 0%,
+    rgba(233, 130, 131, 0.9) 100%);; */
+    background-image: linear-gradient(360deg, 
+    rgba(237, 215, 137, 0.9) 0%,
+    rgba(233, 130, 131, 0.9) 100%), 
+    url("/assets/img/Rectangle\ 2.png");
+    color: #fff;
+    text-align: center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+
+}
+.promo-subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+.promo-title {
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 1.2;
+    margin-bottom: 116px;
+}
+
+.promo-link {
+    display: inline-block;
+    max-width: 700px;
+    width: 100%;
+    padding: 30px 60px;
+    color: inherit;
+    border: 1px solid #fff;
+    font-weight: 700px;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+
+}
